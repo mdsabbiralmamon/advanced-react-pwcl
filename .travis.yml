@@ -1,0 +1,25 @@
+sudo: false
+language: node_js
+node_js:
+  - "20"
+cache: npm
+before_install:
+  - npm upgrade
+install:
+  - npm install
+jobs:
+  include:
+    - stage: test
+      script:
+        - npm test
+    - stage: coverage
+      script:
+        - npm test
+        - npm coveralls
+stages:
+  - name: test
+    # require the type to be a PR
+    if: type = pull_request
+  - name: coverage
+    # require the type to be push to master
+    if: type = push AND branch = master
