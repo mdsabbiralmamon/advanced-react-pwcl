@@ -57,14 +57,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdsabbiralmamon/react-advanced-pwcl.git"
+    "url": "git+https://github.com/mdsabbiralmamon/advanced-react-pwcl"
   },
   "author": "Sabbir <md.sabbiralmamon@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mdsabbiralmamon/react-advanced-pwcl/issues"
+    "url": "https://github.com/mdsabbiralmamon/advanced-react-pwcl/issues"
   },
-  "homepage": "https://github.com/mdsabbiralmamon/react-advanced-pwcl#readme",
+  "homepage": "https://github.com/mdsabbiralmamon/advanced-react-pwcl#readme",
   "peerDependencies": {
     "react": ">16.0.0-alpha || >17.0.0-alpha || >18.0.0-alpha"
   },
